@@ -1,0 +1,127 @@
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #787878;
+	overflow: hidden;
+	font-family: "Helvetica";
+}
+
+#header {
+	border: solid 2px black;
+	overflow: hidden;
+	background-color: #4d4d4d;
+	//background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#C0C0C0));
+	//background: -moz-linear-gradient(top,  #0A0300,  #5C1E04);
+	height: 65px;
+	margin: 5px 5px;
+}
+
+#title {
+	padding-top: 2px;
+	padding-left: 10px;
+	color: white;
+	font-size: 18pt;
+	text-align: left;
+	text-shadow: 0px 1px 0px #000000;
+	font-weight: 700;
+}
+#subtitle {
+	padding-left: 10px;
+	text-shadow: 0px 1px 0px #000000;
+	color: white;
+        
+}
+
+span b {
+	color: white;
+	font-size: 10pt;
+        font-weight: normal;
+}
+
+
+#rightPane {
+
+	position: absolute;
+	top: 75px;
+	right: 0px;
+	width: 30%;
+	bottom: 0;
+	border: solid 2px black;
+	padding: 0;
+	background-color: #FFFBF2;
+	border: solid 2px black;
+	margin: 5px;
+}
+
+#map {
+		
+	position:absolute; top:75px; bottom:0; width:68.5%; 
+	background-color: #FFF;
+	border: solid 2px black;
+	margin: 5px;
+	padding: 0;
+}
+
+#BridgeDex-Logo{
+    float: left;
+    left: 10px;
+    bottom: 0px;
+    position: absolute;
+    z-index: 100;
+}
+
+.ui-radio {
+	width: 65%;
+	display: inline-block;
+}
+
+.esriLegendServiceLabel {
+	display: none;
+}
+
+/* Text Styles */
+.styleBoldSmall {
+	text-align: center;
+	font-weight: bold;
+	font-size: small
+}
+
+
+.styleNormal {
+	text-align: center;
+	font-weight: normal;
+	font-size: medium;
+}
+
+.styleHeading {
+	text-align: center;
+	color: #0A0300;
+	font-weight: bold;
+	font-size: large
+}
+
+.styleItalic {
+	text-align: center;
+	color: #FFEFD5;
+	font-weight: normal;
+	font-size: small
+}
+
+/* Border Lines */
+.roundedCorners {
+	-o-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.shadow {
+	-webkit-box-shadow: 4px 4px 8px black;
+	-moz-box-shadow: 4px 4px 8px black;
+	-o-box-shadow: 4px 4px 8px black;
+	box-shadow: 4px 4px 8px black;
+}
+
+
